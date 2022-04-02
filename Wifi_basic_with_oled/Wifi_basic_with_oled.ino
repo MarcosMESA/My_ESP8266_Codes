@@ -6,8 +6,8 @@ SSD1306Wire  display(0x3c, D1, D2);
 
 //parameters
 
-const char* ssid = "FAMILIA MORAIS-2G";  //2.4 only
-const char* password = "N4v3g@nd0$";
+const char* ssid = "ssid";  //2.4 only
+const char* password = "wifi_password";
 //const char* host = "000.000.0.000"; //host to locate a client or DB
 
 void setup(){
