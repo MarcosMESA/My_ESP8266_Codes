@@ -36,6 +36,7 @@ void setup(){
   display.setFont(ArialMT_Plain_10); //COMIC SANS SUPREMACY, FCK Z OLED
   display.drawString(63, 10, WiFi.localIP().toString()); //freaking message to a fckn scout
   display.display();
+  
 }
 
 void loop(){
