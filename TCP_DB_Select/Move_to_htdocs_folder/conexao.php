@@ -1,7 +1,7 @@
 <?php
 	try {
 		$HOST = "localhost";
-		$BANCO = "mesinha_proto";
+		$BANCO = "db";
 		$USER = "root";
 		$SENHA = "";
 
