@@ -18,8 +18,8 @@ void setup(){
 
   Serial.println("Trying to connect:");
 
-  display.init(); //starts z fckn oled
-  display.flipScreenVertically(); //i dont nd 2 tl ya
+  display.init(); //oled starts
+  display.flipScreenVertically(); //flips screen vertically
 
   //while try to connect
   
@@ -31,10 +31,10 @@ void setup(){
   Serial.println("Connected!");
   Serial.println(WiFi.localIP()); //board ip
 
-  display.clear(); //same as z system cls 2 oleds
-  display.setTextAlignment(TEXT_ALIGN_CENTER); //really?
-  display.setFont(ArialMT_Plain_10); //COMIC SANS SUPREMACY, FCK Z OLED
-  display.drawString(63, 10, WiFi.localIP().toString()); //freaking message to a fckn scout
+  display.clear(); //clear screen
+  display.setTextAlignment(TEXT_ALIGN_CENTER); //center align
+  display.setFont(ArialMT_Plain_10); //set font
+  display.drawString(63, 10, WiFi.localIP().toString()); //transform ip in string and show on screen
   display.display();
   
 }
