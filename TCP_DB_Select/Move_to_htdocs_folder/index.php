@@ -17,6 +17,6 @@
     					echo "Protocolo: ".$row['Protocolo']."; \n";
 					}	
 				} catch (Exception $e) {
-					echo "Nao foi possivel realizar tal acao, pelo motivo: [".$e->getMessage()." ]<\br>\n";
+					echo "It was not possible to complete the action, due to the error: [".$e->getMessage()." ]<\br>\n";
 				}
 			?>
